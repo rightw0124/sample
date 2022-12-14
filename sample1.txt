@@ -1,0 +1,14 @@
+1. 로컬 저장소(리포지토리) 초기화							
+admin@DESKTOP-R2NKGM0 MINGW64 /d/iclass1020/sample							
+$ git init							
+Initialized empty Git repository in D:/iclass1020/sample/.git/					-> 로컬 저장소 관리 폴더 .git 이 생깁니다.		
+							
+							
+2. 설정된 정보 확인 : --global 모든 저장소에 적용 , --local 현재 저장소에 적용 -> 정보가 없다면 설정하기							
+admin@DESKTOP-R2NKGM0 MINGW64 /d/iclass1020/sample (master)							
+$ git config --global user.email							
+koreait.sec2020@gmail.com							
+							
+admin@DESKTOP-R2NKGM0 MINGW64 /d/iclass1020/sample (master)							
+$ git config --global user.name							
+SOHEE kim							
